@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: line-gemini-bot
+    env: php
+    buildCommand: ""
+    startCommand: ""
+    plan: free
+    branch: main
+    region: oregon
